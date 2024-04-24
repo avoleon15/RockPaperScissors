@@ -1,0 +1,207 @@
+body {
+    background-image: url("./assets/arcadeBackground.webp");
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    margin-top: 70px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 200px;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+    letter-spacing: 10px;
+
+    text-shadow: -7px 0 rgb(0, 150, 30), 0 7px rgb(0, 150, 30), 2px 0 rgb(0, 255, 30), 0 -2px rgb(0, 255, 30);
+    color: black;
+}
+
+h2{
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+
+    text-shadow: -2px 0 rgb(1, 104, 22), 0 2px rgb(1, 97, 20), 2px 0 rgb(1, 73, 9), 0 -2px rgb(0, 87, 10);
+    color: yellowgreen;
+}
+
+.big-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.small-container{
+    background-color: black;
+    height: 600px;
+    width: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container{
+    background-color: grey;
+    height: 550px;
+    width: 400px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player-box{
+    width: 100%;
+    height: 275px;
+
+    background-color: rgba(16, 54, 169, 0.638);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    flex-direction: row;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    flex-direction: row;
+
+
+    border-top: solid black 1px;
+    background-color: rgba(16, 16, 57, 0.491);
+    width: 100%;
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    margin: 10px;
+
+    background-color: rgba(0, 0, 139, 0.342);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 30px;
+}
+
+.button:hover{
+    background-color:rgb(0, 0, 139);
+    cursor:pointer;
+}
+
+.player-selection{
+    width: 150px;
+    height: 150px;
+
+    background-color: rgba(0, 0, 139, 0.565);
+    border-radius: 10px;
+
+    font-size: 100px;
+    text-align: center;
+}
+
+.first-score{
+    font-size: 100px;
+}
+
+.second-score{
+    font-size: 100px;
+}
+
+.second-player{
+    align-items:flex-end;
+    background-color: rgba(8, 2, 174, 0.682);
+}
+
+.second-player-color{
+    background-color: rgba(8, 2, 174, 0.682);
+}
+
+.first-player{
+    background-color: rgba(255, 0, 0, 0.682);
+    align-items:flex-start;
+}
+
+.first-player-color{
+    background-color: rgba(255, 0, 0, 0.682);
+}
+
+.first-player-menu-color{
+    background-color: rgba(160, 24, 24, 0.682);
+}
+
+.result{
+    font-size: 90px;
+    position: absolute;
+
+    padding-top: 210px;
+
+    font-family: "Jersey 25", sans-serif;
+
+
+    letter-spacing: 10px;
+}
+
+.lost-styling{
+    text-shadow: -4px 0 rgb(0, 0, 0), 0 4px rgb(0, 0, 0), 4px 0 rgb(0, 0, 0), 0 -4px rgb(0, 0, 0);
+    color: rgb(113, 84, 84);
+}
+
+.win-styling{
+    text-shadow: -4px 0 rgb(255, 255, 0), 0 4px rgb(255, 255, 0), 4px 0 rgb(255, 255, 0), 0 -4px rgb(255, 255, 0);
+    color: rgb(25, 23, 48);
+}
+
+.draw-styling{
+    text-shadow: -4px 0 grey, 0 4px grey, 4px 0 grey, 0 -4px grey;
+    color: rgb(0, 0, 0);
+}
+
+#big-score-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#small-score-container{
+    background-color: black;
+    height: 200px;
+    width: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.score{
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 0px;
+
+    text-shadow: -2px 0 rgb(0, 255, 51), 0 2px rgb(0, 255, 51), 2px 0 rgb(0, 255, 30), 0 -2px rgb(0, 255, 30);
+    color: rgb(0, 0, 0);
+
+    width: 500px;
+}
