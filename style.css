@@ -24,7 +24,7 @@ h1{
     color: black;
 }
 
-@media (max-width = 420px){
+@media (min-width = 420px){
     font-size: 100px;
 }
 
