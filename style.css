@@ -24,8 +24,10 @@ h1{
     color: black;
 }
 
-@media (min-width = 420px){
-    font-size: 100px;
+@media (max-width: 420px){
+    h1{
+        font-size: 100px;
+    }
 }
 
 h2{
